@@ -1,25 +1,109 @@
-.red{
-    color: red;
-    }
-.orange{
-    color: orange;
-}
-.yell{
-    color: yellow;
-}
-.green{
-    color: green;
-}
-.blue
-{
-    color: blue;
-}
-.aqua
-{
-    color: aqua;
-}
-.purple
-{
-    color: purple;
+
+body{
+    background-color:#990909;
 }
 
+.header
+{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.images
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.content
+{
+    display: flex;
+}
+
+.leftnav
+{
+    width: 1000px;
+}
+
+.rightside
+{
+    width: 700px;
+}
+
+.paddingtopimg
+{
+    padding-top: 30px;
+}
+.imgtext
+{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+.leftnav
+{
+    background-color: #7d0909;
+    padding-bottom: 50px;
+    margin: 10px; 10px; 0px; 5px;
+}
+.navlist
+{
+    list-style-type: none;
+    margin: 20px; 0px 0px 0px;
+    padding: 0px;
+    
+}
+
+.navlist>li
+{
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 22px;
+    
+}
+.navlist>li>a
+{
+    color: orange;
+}
+
+.centrtext
+{
+    color: white;
+    font-size: 22px;
+}
+
+.rightside
+{
+    background-color: #e3dddd;
+    text-align: center;
+}
+
+.titl
+{
+    display: block;
+    background-color:#dbdbdb;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    font-size: 25px;
+}W
+
+.footer
+{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    background-color: #e95b11;
+}
+
+.content
+{
+    margin-bottom: 30px;
+}
+
+hr{
+    width: 120px;
+}
