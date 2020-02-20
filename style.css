@@ -107,3 +107,10 @@ body{
 hr{
     width: 120px;
 }
+
+.footer
+{
+    background-color: orangered;
+    text-align: center;
+    font-size: 22px;
+}
