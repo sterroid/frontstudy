@@ -1,116 +1,172 @@
+*{
+	padding: 0;
+	margin: 0;
+    border: 0;
+    font-family: 'Josefin Sans';
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
 
-body{
-    background-color:#990909;
-}
+nav,footer,header,aside{display: block;}
 
-.header
-{
-    text-align: center;
-    padding-top: 50px;
-}
-
-.images
-{
-    display: flex;
-    justify-content: space-around;
-    background-color: black;
-}
-
-.content
-{
-    display: flex;
-}
-
-.leftnav
-{
-    width: 1000px;
-}
-
-.rightside
-{
-    width: 700px;
-}
-
-.paddingtopimg
-{
-    padding-top: 30px;
-}
-.imgtext
-{
-    color: white;
-    text-align: center;
-    font-size: 22px;
-}
-
-.leftnav
-{
-    background-color: #7d0909;
-    padding-bottom: 50px;
-    margin: 10px 10px 0px 5px;
-}
-.navlist
-{
-    list-style-type: none;
-    margin: 20px 0px 0px 0px;
-    padding: 0px;
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	background-image: url(img/back.png);
+	background-repeat: no-repeat;
+    background-position: center;
     
 }
+input,button,textarea{font-family:inherit;}
 
-.navlist>li
-{
-    padding-bottom: 15px;
-    text-align: center;
-    font-size: 22px;
-    
-}
-.navlist>li>a
-{
-    color: orange;
-}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
 
-.centrtext
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*-------------------- .header>.logo+.icons+.navlinks^.blog>.blogtext{BLOG}+.buttons>ul>li*2^^^.imgblock+.alltext>.bigtext+.text+.btnnews^.othnews+.gallery>.leftimg+.rightimg^.aftergal>.righttext>.dates+.describe>.bigtext+.smalltext^^.lefttext>.dates+.describe>.bigtext+.smalltext^^^.footer>.leftlogo+ul>li*4*/
+h1
 {
-    color: white;
-    font-size: 22px;
+  width:1170px;
+  margin:35px auto 35px auto;
+  font-family: Proxima Nova;
+  font-size: 36px;
 }
-
-.rightside
+.wrap
 {
-    background-color: #e3dddd;
-    text-align: center;
+  display:flex;
+  width: 1194px;
+  justify-content:space-around;
 }
-
-.titl
+.box
 {
-    display: block;
-    background-color:#dbdbdb;
-    font-weight: bold;
-    padding: 0px;
+  width:270px;
+  height: 415px;
+  position:relative;
+  
+}
+.box h2
+{
+    padding: 13px 0px 0px 14px;
+    letter-spacing: 1px;
     margin: 0px;
-    font-size: 25px;
-}W
-
-.footer
-{
-    text-align: center;
-    font-weight: bold;
-    color: white;
+    font-family: 'Proxima Nova',serif;
     font-size: 18px;
-    background-color: #e95b11;
 }
 
-.content
+
+.descrb
 {
-    margin-bottom: 30px;
+  border-top:1px solid red;
+  border-bottom:1px solid red;
+  padding: 23px 0px 0px 0px;
 }
-
-hr{
-    width: 120px;
-}
-
-.footer
+.size
 {
-    background-color: orangered;
-    text-align: center;
-    font-size: 22px;
+  display:flex;
+  
+  
+}
+
+.type
+{
+  display:flex;  
+ 
+}
+.qnt
+{
+  display:flex; 
+ 
+}
+
+.left
+{
+  
+  width:50%;
+  font-family: Proxima Nova;
+  font-size: 16px;
+  color: #626262;
+  padding: 0px 0px 14px 13px;
+  letter-spacing: 1px;
+
+
+}
+.right
+{
+  
+  width:50%;
+  text-align:right;
+  padding-right:19px;  
+  font-family: Proxima Nova;
+  font-size: 16px;
+}
+.add
+{
+  font-family: Proxima Nova;
+  font-size: 18px;
+  color: #F35D51;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  letter-spacing: 1px;
+}
+.add a
+{
+  text-decoration:none;
+  color: #F35D51;
+}
+
+.buy
+{
+  width: 210px;
+  height: 40px;
+  background: #313A59;
+  color:white;
+  line-height:35px;
+  text-align:center;
+  position:absolute;
+  bottom:-1px;
+  left:30px;
+}
+.buy a
+{
+  text-decoration:none;
+  color:white;
+  letter-spacing: 2px;
+  line-height: 41px;
+}
+
+.buy:hover
+{
+  background: #F35D51;
+}
+.buy:hover+.stripe
+{
+  background: #F35D51;
+}
+
+.box:hover 
+{
+  box-shadow: 0px 0px 70px -9px rgba(0,0,0,0.75);
+}
+
+.stripe
+{
+  background: #313A59;
+  height:5px;
+  margin:47px 0px 0px 0px;
 }
