@@ -1,0 +1,328 @@
+*{
+	padding: 0;
+	margin: 0;
+    border: 0;
+    font-family: 'Josefin Sans';
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	background-image: url(img/back.png);
+	background-repeat: no-repeat;
+    background-position: center;
+    
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*-------------------- .header>.logo+.icons+.navlinks^.blog>.blogtext{BLOG}+.buttons>ul>li*2^^^.imgblock+.alltext>.bigtext+.text+.btnnews^.othnews+.gallery>.leftimg+.rightimg^.aftergal>.righttext>.dates+.describe>.bigtext+.smalltext^^.lefttext>.dates+.describe>.bigtext+.smalltext^^^.footer>.leftlogo+ul>li*4*/
+.header
+{
+    display: flex;
+    padding: 30px 0px 0px 0px;
+
+}
+.logo
+{
+    margin: -20px 0px 0px 127px;
+    padding: 0px;
+    flex-basis: 45%;
+}
+.icons{
+    margin: 12px -2px -1px 6px;
+}
+
+.icons>ul
+{
+    display: flex;    
+}
+
+.icons ul li
+{
+    margin: 0px 31px 0px 0px;
+}
+#uniq
+{
+    margin-top: -10px;
+}
+
+
+.navlinks
+{
+    
+    margin: 12px 0px 0px 32px;
+}
+.navlinks>ul
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navlinks ul li
+{
+    margin: 0px 61px 0px 0px;
+    font-size: 18px;
+}
+
+.blog
+{
+    height: 260px;
+    background-color: #F8F8F8;
+    padding: 110px 0px 0px 0px;
+    z-index: 1;
+    position: relative;
+    opacity: 0.9;
+}
+
+.blogtext
+{
+    font-family: 'Bebas Neue';
+    margin: 0px auto;
+    width: 100px;
+    letter-spacing: 0.02em;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+
+.buttons ul
+{
+    display: flex;
+    padding: 62px 0px 0px 135px;
+   
+}
+.buttons ul li
+{
+    margin: 0px 15px 0px 15px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.whitebg
+{
+    height: 100px;
+    height: 129px;
+    position: relative;
+    z-index: 0;
+    opacity: 0.3;
+}
+
+.imgbg1
+{
+    position: absolute;
+    right: 278px;
+    top: -233px;
+    
+}
+
+.imgbg2
+{
+    position: absolute;
+    right: 136px;
+    top: -169px;
+    
+}
+.imgblock
+{
+    z-index: 1;
+    position: relative;
+}
+.alltext
+{
+    padding: 92px 0px 0px 0px;
+    width: 1620px;
+    margin: 0px auto;
+}
+.date
+{
+    font-family: Bebas Neue;
+    font-size: 50px;
+    margin: 0px 0px 44px 136px;
+    color: #C3AA5B;
+}
+.bigtext
+{
+    font-family: Bebas Neue;
+    font-size: 75px;
+    max-width: 932px;
+    margin: 0px 0px 42px 136px;
+    letter-spacing: 1.7px;
+    color: #222222;
+}
+
+.text
+{
+    font-family: 'Josefin Sans' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    max-width: 1070px;
+    margin: 0px auto;
+    color: #000000;
+    text-indent: 1em;
+    line-height: 30px;
+    padding: 0px 0px 34px 0px;
+}
+.text p
+{
+    margin-bottom: 20px;
+}
+
+.btnnews
+{
+    width: 193px;
+    height: 50px;
+    border: 0.8px solid #222222;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Josefin Sans' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 275px;
+    
+}
+
+.othnews
+{
+    margin: 0px auto;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    padding: 198px 0px 0px 0px
+}
+
+.gallery
+{
+    display: flex;
+    width: 1647px;
+    justify-content: space-around;
+    margin: 0px auto;
+    padding: 91px 0px 0px 0px;
+}
+
+.aftergal
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 77px 0px 0px 129px;
+    width: 1603px;
+    margin: 0px auto;
+}
+.lefttext
+{
+    display: flex;
+}
+
+.righttext
+{
+    display:flex;
+}
+
+.dates
+{
+    font-family: 'Bebas Neue',serif ;
+    font-size: 30px;
+    padding: 0px 0px 0px 0px;
+    color: #C3AA5B;
+}
+
+.bigtext2
+{
+    width: 590px;
+    font-family: 'Bebas Neue';
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    padding: 0px 0px 0px 79px;
+}
+
+.smalltext
+{
+    width: 520px;
+    font-family: 'Josefin Sans', serif;
+    padding: 18px 0px 0px 76px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.dates3
+{
+    font-family: 'Bebas Neue',serif ;
+    font-size: 30px;
+    padding: 0px 0px 0px 0px;
+    color: #C3AA5B;
+}
+
+.bigtext3
+{
+    width: 590px;
+    font-family: 'Bebas Neue';
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    padding: 0px 0px 0px 79px;
+}
+
+.smalltext3
+{
+    width: 593px;
+    font-family: 'Josefin Sans', serif;
+    padding: 18px 0px 0px 76px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.footer
+{
+    display: flex;
+    margin: 331px 0px 0px 0px;
+    padding: 90px 0px 0px 0px;
+    background: #F8F8F8;
+}
+
+.leftlogo
+{
+    flex-basis: 27%;
+    padding: 0px 0px 0px 128px;
+}
+
+.footnav ul
+{
+    display: flex;
+}
+
+.footnav ul li
+{
+    font-family: 'Bebas Neue', serif;
+    font-size: 24px;
+    padding: 29px 174px 0px 46px;
+    color: #222222;
+}
+
+
