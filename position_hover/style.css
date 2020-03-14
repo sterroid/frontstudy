@@ -1,0 +1,189 @@
+*{
+	padding: 0;
+	margin: 0;
+    border: 0;
+    font-family: 'Josefin Sans';
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	background-image: url(img/back.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	padding: 100px;
+    
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*-------------------- */
+
+.flex
+{
+  display:flex;
+}
+.space
+{
+  justify-content:space-between;
+}
+
+.title
+{
+  font-family: Lato;
+  font-size: 34px;
+  text-transform: uppercase;
+  color: #3C3C3C;
+  text-align:center;
+  margin:69px 0px 10px 0px;
+ }
+
+.title__line
+{
+  width: 45px;
+  height: 3px;
+  background: #DDDBDB;
+  margin:0 auto;
+  margin-bottom:61px;
+}
+.title__txt
+{
+  Width:557px;
+  text-align:center;
+  margin:0 auto;
+  font-family: Lato;  
+  font-size: 16px;
+  color: #3C3C3C;
+  margin-bottom:75px;
+}
+
+.main
+{
+  justify-content:space-between;
+  margin:0px auto;
+  width:1170px;
+}
+
+.block1
+{
+  position: relative;
+}
+
+
+.blueblock
+{
+  width: 270px;
+  height: 270px;
+  background: #00AED9;
+  position: absolute;;
+  margin-bottom:16px;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: 0.5s;
+ }
+ .blueblock:hover
+{
+	opacity: 0.9;
+}
+
+.links
+{
+  width:136px;
+  height:42px;
+  position:absolute;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+.twt
+{
+  width: 42px;
+  height: 42px;  
+  background: lightblue;
+  text-align: center;
+  line-height: 38px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
+.face
+{
+  width: 42px;
+  height: 42px;  
+  background: lightblue;
+  text-align: center;
+  line-height: 38px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
+.goog
+{
+  width: 42px;
+  height: 42px;  
+  background:lightblue;
+  text-align: center;
+  line-height: 38px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.blockname h2
+{
+  font-family: Lato;
+  font-weight: bold;
+  font-size: 18px;
+  color: #282528;
+  margin:0xp;
+  padding:0px;
+  line-height:0px;
+
+}
+
+.blockname span
+{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #646464;
+  margin:0px;
+  padding:0px;
+}
+
+
+
+
+
+
+
+.img
+{
+  width: 270px;
+  height: 270px;
+  margin-bottom:16px;
+}
+
+
